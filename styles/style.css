@@ -138,73 +138,117 @@ body {
 
 /*Estilização da página curriculum.html*/
 
-.introducao{
+.container {
+	padding: 5%;
 	display: flex;
-	align-items: center;
-	gap: 3%;
-}
-
-.introducao__imgperfil {
-	border-radius: 50%;
-	width: 20%;
-	margin: 5% 0% 0% 15%;
-}
-
-.introducao__descricao{
-	display: flex;
-	width: 50%;
 	flex-direction: column;
+	align-items: center;
+	gap: 40px;
 }
 
-.introducao__descricao__nome {
-	font-size: 1.8rem;
-	font-family: var(--fonte-primaria);
-	color: var(--cor-terciaria);
-}
-
-.introducao__descricao__texto {
-	font-size: 1.25rem;
-	font-family: var(--fonte-secundaria);
-}
-
-.informacoes {
-	margin: 5% 15%;
-	display: flex;
-	justify-content: space-around;
-	gap: 10%;
-}
-
-.informacoes__div {
-	padding: 4%;
-	width: 65%;
+.container__principal {
 	border: 2px solid var(--cor-terciaria);
-	border-radius: 3%;
+	padding: 1em;
+	border-radius: 8px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 5px;
+	font-family: var(--fonte-secundaria);
 }
 
-.informacoes__div:hover{
-	box-shadow: 5px 10px var(--cor-terciaria);
-
+.container__principal:hover {
+	 box-shadow: 5px 10px var(--cor-terciaria);
 }
 
-.informacoes__div__titulo {
-	font-size: 1rem;
+.container__principal__titutlo {
 	font-family: var(--fonte-primaria);
+	color: var(--cor-terciaria)
 }
 
-.informacoes__div__texto {
-	font-size: 0.875rem;
+
+.container__academico {
+	border: 2px solid var(--cor-terciaria);
+	padding: 1em;
+	border-radius: 8px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 10px;
 	font-family: var(--fonte-secundaria);
 }
 
-.informacoes__experiencia__topico {
-	font-size: 0.75rem;
-	font-family: var(--fonte-secundaria);
-	font-weight: 600;
+.container__academico:hover {
+	 box-shadow: 5px 10px var(--cor-terciaria);
+}
+
+.container__academico__titulo {
+	font-family: var(--fonte-primaria);
 	color: var(--cor-terciaria);
 }
 
-.informacoes__experiencia__topico__texto{
-	font-size: 0.7rem;
+.container__profissional {
+	border: 2px solid var(--cor-terciaria);
+	padding: 1em;
+	border-radius: 8px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 10px;
 	font-family: var(--fonte-secundaria);
 }
 
+.container__profissional:hover {
+	 box-shadow: 5px 10px var(--cor-terciaria);
+}
+
+.container__profissional__titulo {
+	font-family: var(--fonte-primaria);
+	color: var(--cor-terciaria);
+}
+
+.container__habilidades {
+	border: 2px solid var(--cor-terciaria);
+	padding: 1em;
+	border-radius: 8px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 10px;
+	font-family: var(--fonte-secundaria);
+}
+
+.container__habilidades:hover {
+	 box-shadow: 5px 10px var(--cor-terciaria);
+}
+
+.container__habilidades__titutlo{
+	font-family: var(--fonte-primaria);
+	color: var(--cor-terciaria);
+}
+
+.container__habilidades__divs {
+	display: grid;
+	column-gap: 10px;
+	grid-template-columns: 33% 33% 33%;
+	font-family: var(--fonte-secundaria);
+}
+
+.container__habilidades__profissionais {
+	border: 2px solid var(--cor-terciaria);
+	padding: 1em;
+	border-radius: 8px;
+}
+
+.container__habilidades__pessoais {
+	border: 2px solid var(--cor-terciaria);
+	padding: 1em;
+	border-radius: 8px;
+}
+
+.container__habilidades__idiomas {
+	border: 2px solid var(--cor-terciaria);
+	padding: 1em;
+	border-radius: 8px;
+	margin: 0% 16px 0% 0%;
+}
