@@ -10,8 +10,6 @@
 	--fonte-secundaria: 'Montserrat', sans-serif;
 }
 
-/*1 rem (Relative to font-size of the root element) = 16 pixels*/
-
 * {
 	margin: 0;
 	padding: 0;
